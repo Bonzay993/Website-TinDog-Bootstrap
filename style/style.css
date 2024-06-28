@@ -1,194 +1,29 @@
 .gradient-background {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-    width:100%;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-.text-overlay {
-    color: white; /* Text color */
-    width: 100%; /* Make the text overlay cover the entire width of the image container */
-    height: 100%; /* Make the text overlay cover the entire height of the image container */
-    
-           
-}
-.download-now{
-    
-    align-items: center;
-}
-
-.download-font{
-    
-}
-
-.iphone img{
-    position: relative; /* Ensure the parent container is positioned relatively */
-    width:50%;
-    filter:drop-shadow(10px 10px 20px #222); 
-    
-    
-}
-
-.icon-grid {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    gap: 12%;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
   
-}
-
-.col{
-    margin-top:100px;
-    width: 500px;
-    height:300px;   
-}
-
-.col svg{
-    background-color:rgb(208, 236, 235);
-    border-radius:10px;
-    border: 2px solid rgb(231, 217, 217);
-    width:50px;
-    height: 50px;
-    
-}
-
-.col {
-    box-shadow: 10px 10px 10px  rgb(178, 192, 197);
-    border: 1px solid rgb(231, 217, 217);
-}
-
-#title{
-    box-shadow: 10px 1px 5px rgb(20, 24, 26);
-}
-
-.header{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    justify-content: center;
-}
-
-#features .container-fluid{
-    height: 400px;
-    align-content: center;
-}
-
-.jumbotron{
-    margin-top:100px;
-}
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 1612px) and (max-width: 2196px) {
-   
-    .col{
-        margin-top:50px;
-        justify-content: space-between;
-        width:400px;
-        height:300px;   
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
     }
-    .icon-grid{
-        gap:16%;
-        margin-left: auto;
-        margin-right: auto;
-
+    50% {
+      background-position: 100% 50%;
     }
-    
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 1965px) and (max-width:2073px){ 
-
-    .col{
-        margin-top:50px;
-        justify-content: space-between;
-        width: 400px;
-        height:300px;   
+    100% {
+      background-position: 0% 50%;
     }
-
-    .icon-grid{
-        gap: 14%;
-        margin-left:
-    }
-
-}
-
-@media (min-width: 1851px) and (max-width:1964px){ 
-
-    .col{
-        margin-top:50px;
-        
-        width: 400px;
-        height: 300px;   
-    }
-
-    .icon-grid{
-        gap: 12%;
-    
-    }   
-
-}
-
-@media (min-width: 1763px) and (max-width:1850px){ 
-
-    .col{
-        margin-top:50px;
-        
-        width: 400px;
-        height: 300px;   
-    }
-
-    .icon-grid{
-        gap: 10%;
-    
-    }   
-
-}
-
-@media (min-width: 1585px) and (max-width:1762px){ 
-
-    .col{
-        
-        width: 375px;
-        height: 275px;   
-    }
-
-    .icon-grid{
-        gap: 8%;
-    
-    }   
-
-}
-
-
-@media (min-width: 0px) and (max-width:1584px){ 
-
-    .col{
-        margin-top:50px;
-       
-        width: 355px;
-        height: 250px;   
-    }
-
-    .icon-grid{
-        gap: 6%;
-    
-    }   
-
-}
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+  
